@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Lobster&display=swap');
+
+*{
+    margin:5px;
+    padding:5px;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+     background:  url('./images/sky.jpg')repeat-x; 
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    padding: 30px 0;
+}
+header h1{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+    font-family:  'Limelight', cursive;
+}
+#bouton{
+    background: rgb(58, 107, 139);
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 15px
+}
+.myBouton{
+    background: rgb(58, 107, 139);
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 15px
+}
+
+
+
+
+p{
+    font-size: 15px;
+    color: #fff;
+    line-height: 15px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+.images1 {
+    position: relative;
+  }
+  
+  .descriptionpart1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    font-family:  'Limelight', cursive;
+  }
+
+.images2 {
+    position: relative;
+  }
+  
+  .descriptionpart2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    font-family:  'Limelight', cursive;
+  }
+.images3 {
+    position: relative;
+  }
+  
+  .descriptionpart3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    font-family:  'Limelight', cursive;
+  }
+
+
+.images4 {
+    position: relative;
+  }
+  
+  .descriptionpart4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    font-family:  'Arial', cursive;
+    text-align: justify;
+  }
+  
+.images5 {
+    position: relative;
+  }
+  
+  .descriptionpart5 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    padding: 5px;
+    font-family:  'Arial', cursive;
+    text-align: justify;
+  }
+  
+
+
+.images5 img{
+    width: 500px;
+    height:400px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.images4 img{
+    width: 500px;
+    height:400px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.images3 img{
+    width: 500px;
+    height:400px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.images2 img{
+    width: 500px;
+    height:400px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.images1 img{
+    width: 500px;
+    height:400px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
