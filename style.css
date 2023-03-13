@@ -30,24 +30,20 @@ header h1{
     text-shadow: 2px 2px 2px #000;
     font-family:  'Limelight', cursive;
 }
-#bouton{
+.bouton{
+    background: rgb(58, 107, 139);
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 15px;
+}
+/* .bouton{
     background: rgb(58, 107, 139);
     color: #fff;
     border-radius: 50%;
     cursor: pointer;
     padding: 15px
-}
-.myBouton{
-    background: rgb(58, 107, 139);
-    color: #fff;
-    border-radius: 50%;
-    cursor: pointer;
-    padding: 15px
-}
-
-
-
-
+} */
 p{
     font-size: 15px;
     color: #fff;
@@ -56,14 +52,11 @@ p{
     padding: 5px;
     text-align: center;
 }
-
-
-
-.images1 {
+.images {
     position: relative;
   }
   
-  .descriptionpart1 {
+  .descriptionpart {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -72,9 +65,41 @@ p{
     color: #fff;
     background-color: rgba(0,0,0,0.7);
     padding: 10px;
-    font-family:  'Limelight', cursive;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
   }
-
+  .nourriture p{
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 5;
+    line-height: 25px;
+  }
+  .nourri {
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 5;
+    line-height: 25px;
+    
+  }
+  .pecheur {
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 5;
+    line-height: 25px;
+  }
+  .cygne {
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 5;
+    line-height: 25px;
+  }
+  .hirondelle {
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 5;
+    line-height: 25px;
+  }
+/* 
 .images2 {
     position: relative;
   }
@@ -173,9 +198,9 @@ p{
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
-}
+}*/
 
-.images1 img{
+.images img{
     width: 500px;
     height:400px;
     cursor: pointer;
@@ -184,4 +209,4 @@ p{
     
 }
 
-
+ 
